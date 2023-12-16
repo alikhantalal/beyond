@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div,h1{
+            color: aqua;
+        }
+        .grid {
+background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <ol>
+    <li><a href="#bananas">bananas</a></li>
+    <li><a href="#apples">apples</a></li>
+    <li><a href="#oranges">oranges</a></li>
+    </ol>
+    <p id ="bananas">
+        Bananas are good for health.
+    </p>
+    <p id="apples">
+        An apple a day keeps the doctor away.
+    </p>
+    <p id="oranges">
+        I love oranges.
+    </p>
+    <p contenteditable="true"> Apna nam bataiye </p>
+<form>
+    <div>
+        Gender
+        <input name="Gender" type="radio" value="Male"> Male
+        <input name="Gender" type="radio" value="Female"> Female
+    </div>
+    <br>
+    <div>
+        DOB
+        <input name="date of birth" type="date">
+    </div>
+    <div>
+        Where do you belong from?
+        <input name="Country" list="countries" placeholder="Country">
+        <datalist id="countries">
+        <option value="Afghanistan"></option>
+        <option value="India"></option>
+        <option value="US"></option>
+        <option value="Pakiistan"></option>
+        <option value="Krgystan"></option>
+        <option value="Turkmenistan"></option>
+        <option value="UK"></option>
+        </datalist>
+    </div>
+    <br>
+    <div>
+Review
+<input pattern="great?" placeholder="type here">
+<button type="submit">submit</button>
+    </div>
+    <h1 style="color: blue;">how you feeling?</h1>  
+    <h1>kese hai ap?</h1>
+</form>
+</body>
+</html>
